@@ -1,0 +1,39 @@
+# Synthesized table of contents for import into ALPS.
+# The upstream repository is a notebook collection with no Jupyter Book TOC;
+# this file gives it a book structure without altering any lesson content.
+# Paths are relative to ml/cc/exercises, where this file lives.
+
+format: jb-book
+root: README
+parts:
+  - caption: "Exercises"
+    chapters:
+      - file: binary_classification
+      - file: binary_classification_rice
+      - file: fairness_income
+      - file: intro_to_ml_fairness
+      - file: intro_to_neural_nets
+      - file: linear_regression_taxi
+      - file: linear_regression_with_a_real_dataset
+      - file: linear_regression_with_synthetic_data
+      - file: multi-class_classification_with_MNIST
+      - file: numerical_data_bad_values
+      - file: numerical_data_stats
+      - file: numpy_ultraquick_tutorial
+      - file: pandas_dataframe_ultraquick_tutorial
+      - file: representation_with_a_feature_cross
+      - file: validation_and_test_sets
+  - caption: "Estimator API exercises (legacy TensorFlow)"
+    chapters:
+      - file: estimators/feature_crosses
+      - file: estimators/feature_sets
+      - file: estimators/first_steps_with_tensor_flow
+      - file: estimators/improving_neural_net_performance
+      - file: estimators/intro_to_fairness
+      - file: estimators/intro_to_neural_nets
+      - file: estimators/intro_to_sparse_data_and_embeddings
+      - file: estimators/logistic_regression
+      - file: estimators/multi-class_classification_of_handwritten_digits
+      - file: estimators/sparsity_and_l1_regularization
+      - file: estimators/synthetic_features_and_outliers
+      - file: estimators/validation
