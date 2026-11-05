@@ -1,6 +1,10 @@
 # Synthesized table of contents for import into ALPS.
 # The upstream repository is a notebook collection with no Jupyter Book TOC;
 # this file gives it a book structure without altering any lesson content.
+# Chapter titles are each notebook's own heading: the notebooks all open with
+# the same "Colabs" boilerplate cell, which would otherwise name every chapter.
+# The estimators/ notebooks are redirect stubs to the current exercises, so
+# they are not part of the book.
 # Paths are relative to ml/cc/exercises, where this file lives.
 
 format: jb-book
@@ -9,31 +13,36 @@ parts:
   - caption: "Exercises"
     chapters:
       - file: binary_classification
+        title: "Binary Classification"
       - file: binary_classification_rice
+        title: "Binary Classification (Rice)"
       - file: fairness_income
+        title: "Addressing Bias and Fairness Issues in ML Models"
       - file: intro_to_ml_fairness
+        title: "Introduction to Fairness in ML"
       - file: intro_to_neural_nets
+        title: "Introduction to Neural Nets"
       - file: linear_regression_taxi
+        title: "Linear Regression (Chicago Taxi)"
       - file: linear_regression_with_a_real_dataset
+        title: "Linear Regression with a Real Dataset"
       - file: linear_regression_with_synthetic_data
+        title: "Simple Linear Regression with Synthetic Data"
       - file: multi-class_classification_with_MNIST
+        title: "Multi-Class Classification"
       - file: numerical_data_bad_values
+        title: "Numerical Data: Find the Bad Part of the Dataset"
       - file: numerical_data_stats
+        title: "Numerical Data: Statistics on a Dataset"
       - file: numpy_ultraquick_tutorial
+        title: "NumPy UltraQuick Tutorial"
       - file: pandas_dataframe_ultraquick_tutorial
+        title: "Pandas DataFrame UltraQuick Tutorial"
       - file: representation_with_a_feature_cross
+        title: "Representation with a Feature Cross"
       - file: validation_and_test_sets
-  - caption: "Estimator API exercises (legacy TensorFlow)"
+        title: "Validation Sets and Test Sets"
+  - caption: "Back Matter"
     chapters:
-      - file: estimators/feature_crosses
-      - file: estimators/feature_sets
-      - file: estimators/first_steps_with_tensor_flow
-      - file: estimators/improving_neural_net_performance
-      - file: estimators/intro_to_fairness
-      - file: estimators/intro_to_neural_nets
-      - file: estimators/intro_to_sparse_data_and_embeddings
-      - file: estimators/logistic_regression
-      - file: estimators/multi-class_classification_of_handwritten_digits
-      - file: estimators/sparsity_and_l1_regularization
-      - file: estimators/synthetic_features_and_outliers
-      - file: estimators/validation
+      - file: about-this-book
+        title: "About This Book"
